@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/contact_favicon.png" />
+    <link rel="stylesheet" href="/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Agenda de contatos</title>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container">
+            <div class="nav-logo">
+                <img src="./assets/contact_favicon.png" alt="" />
+                <h3>IContato</h3>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#">Contatos</a></li>
+                <li class="nav-link"><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="add-contact">
+        <div class="container">
+            <div>
+                <h2>Adicione um novo contato</h2>
+            </div>
+
+
+            <form class="add-contact_form">
+                <input id="input-name" type="text" placeholder="Nome do contato" />
+                <input id="input-number" type="tel" placeholder="Telefone do contato" />
+                <input id="input-email" type="email" placeholder="Email do contato" />
+                <button class="add-contact_button">Adicionar contato+</button>
+
+            </form>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="container_table-title">
+                <h2>Seus contatos</h2>
+                <table class="contacts-table">
+                    <thead>
+                        <tr>
+                            <th>Nome do contato</th>
+                            <th>Telefone do contato</th>
+                            <th>Email do contato</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="contact-image">Ar</div> Arthur Rabelo
+                            </td>
+                            <td>61 99691-4905</td>
+                            <td>arthurrabelopro@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="contact-image">Ar</div> Arthur Rabelo
+                            </td>
+                            <td>61 99691-4905</td>
+                            <td>arthurrabelopro@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+    </section>
+</body>
+
+</html>
