@@ -3,6 +3,7 @@ const nameInput = document.getElementById("input-name")
 const numberInput = document.getElementById("input-number")
 const emailInput = document.getElementById("input-email")
 const contactsTable = document.querySelector("tbody");
+const contactsTableQuantity = document.querySelector("span")
 
 console.log(contactsTable)
 console.log(form)
@@ -28,7 +29,7 @@ const tableRowTemplate = `
 <td>${emailValue}</td>
 </tr>`
 
-
+contactsTableQuantity.innerHTML = contatos.length;
 
 contactsTable.insertAdjacentHTML("beforeend", tableRowTemplate)
 }

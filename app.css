@@ -184,7 +184,9 @@ table td .contact-image {
   border-radius: 100%;
 }
 
-tfoot {
-  background: rgb(97, 97, 97);
+tfoot td {
+  padding: 0.5rem 0;
+  background: rgb(25, 18, 49);
+  height: 10px;
   color: white;
 }
