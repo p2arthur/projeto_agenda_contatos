@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
     <title>Agenda de contatos</title>
 </head>
 
@@ -34,8 +35,8 @@
 
 
             <form class="add-contact_form">
-                <input id="input-name" type="text" placeholder="Nome do contato" />
-                <input id="input-number" type="tel" placeholder="Telefone do contato" />
+                <input required id="input-name" type="text" placeholder="Nome do contato" />
+                <input required id="input-number" type="tel" placeholder="Telefone do contato" />
                 <input id="input-email" type="email" placeholder="Email do contato" />
                 <button class="add-contact_button">Adicionar contato+</button>
 
@@ -46,7 +47,7 @@
         <div class="container">
             <div class="container_table-title">
                 <h2>Seus contatos</h2>
-                <table class="contacts-table">
+                <table cellspacing="0" class="contacts-table">
                     <thead>
                         <tr>
                             <th>Nome do contato</th>
@@ -55,20 +56,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>
-                                <div class="contact-image">Ar</div> Arthur Rabelo
-                            </td>
-                            <td>61 99691-4905</td>
-                            <td>arthurrabelopro@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="contact-image">Ar</div> Arthur Rabelo
-                            </td>
-                            <td>61 99691-4905</td>
-                            <td>arthurrabelopro@gmail.com</td>
-                        </tr>
                     </tbody>
                     <tfoot></tfoot>
                 </table>

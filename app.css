@@ -8,6 +8,12 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .nav {
   background-color: rgb(25, 18, 49);
   padding: 1rem 0;
@@ -127,10 +133,15 @@ table {
 }
 
 table thead {
-  background-color: rgb(234, 234, 255);
+  color: white;
   width: 100%;
 }
-table th {
+
+table thead tr {
+  background-color: rgb(25, 18, 49);
+}
+
+table tr th {
   padding: 0.5rem 0;
   font-size: 14px;
   font-weight: 700;
@@ -146,10 +157,29 @@ table td {
   font-size: 14px;
 }
 
+.contact-main-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-image-container {
+  width: 15%;
+}
+
+.contact-name {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 30%;
+}
+
 table td .contact-image {
   display: inline;
   text-align: center;
-  background-color: orange;
+  background-color: rgb(25, 18, 49);
+  color: white;
   padding: 0.3rem 0.5rem;
   border-radius: 100%;
 }
